@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 header {
@@ -15,20 +16,54 @@ header {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-section {
+/* section {
   display: flex;
   height: 100px;
   width: 100%;
+} */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .aboutme {
   display: flex;
+  text-align: left;
+  width: 120px;
+}
+
+.work {
+  flex: 1;
+  text-align: left;
+  width: 120px;
+  height: 300px;
+  border-right: solid black 3px;
+}
+.contact {
+  display: flex;
+  text-align: left;
+  width: 120px;
+  border-right: solid black 3px;
+}
+
+#am {
+  display: flex;
+  align-content: flex-start;
+  margin-bottom: 130px;
+}
+
+/* .aboutme {
+  display: flex;
   width: 120px;
   height: 100px;
   border-right: solid black 3px;
+  padding-bottom: 70px;
 }
 
 .work {
@@ -36,6 +71,8 @@ section {
   width: 120px;
   height: 100px;
   border-right: solid black 3px;
+  padding-bottom: 70px;
+  flex-wrap: wrap;
 }
 
 .contact {
@@ -43,9 +80,8 @@ section {
   width: 120px;
   height: 100px;
   border-right: solid black 3px;
-}
-.move {
-}
+  padding-bottom: 50px;
+} */
 
 .card {
   flex: 1 0 200px;
@@ -53,7 +89,7 @@ section {
   text-align: center;
   background-color: salmon;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-end;
   margin: 20px;
   width: 1000px;
 }
