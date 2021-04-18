@@ -48,6 +48,7 @@ main {
   width: 120px;
   height: 300px;
   border-right: solid black 3px;
+  margin-right: 10px;
 }
 
 .work {
@@ -63,6 +64,6 @@ main {
   border-right: solid black 3px;
 }
 
-contnent {
-  justify-content: center;
+#info {
+  text-decoration: underline;
 }
