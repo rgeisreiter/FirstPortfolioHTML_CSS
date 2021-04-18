@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  height: 100px;
+  width: 100%;
+  /* Sets border to bottom only */
+  border-bottom: 10px solid darkblue;
+  background-color: lightblue;
+}
+
+/* #aboutme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+nav {
+  display: flex;
+  display: block;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: darkblue;
+  color: #fff;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
