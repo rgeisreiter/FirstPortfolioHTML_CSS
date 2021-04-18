@@ -67,3 +67,7 @@ main {
 #info {
   text-decoration: underline;
 }
+
+article {
+  text-align: center;
+}
