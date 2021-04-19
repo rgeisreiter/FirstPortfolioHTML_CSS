@@ -44,6 +44,7 @@ main {
 }
 
 .aboutme {
+  flex: 1;
   text-align: left;
   width: 120px;
   height: 300px;
@@ -70,4 +71,5 @@ main {
 
 article {
   text-align: center;
+  flex: 8;
 }
