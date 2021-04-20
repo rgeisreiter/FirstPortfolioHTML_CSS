@@ -72,13 +72,13 @@ main {
   background-color: grey;
 }
 
-.work {
+#work {
   text-align: left;
   width: 120px;
   height: 500px;
   border-right: solid black 3px;
 }
-.contact {
+#contact {
   text-align: left;
   width: 120px;
   height: 100px;
