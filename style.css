@@ -34,7 +34,7 @@ header {
   display: flex;
   align-items: center;
   width: 200px;
-  height: 200px;
+  height: 300px;
 }
 
 body {
@@ -63,7 +63,7 @@ main {
   flex: 1;
   text-align: left;
   width: 120px;
-  height: 300px;
+  height: 400px;
   border-right: solid black 3px;
   margin-right: 10px;
 }
